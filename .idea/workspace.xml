@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8cfa127-0343-44c9-b270-63f7a0432dc1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparableContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Messung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ortsdaten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SuchBaumZeichner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zaehlung.java" afterDir="false" />
+    <list default="true" id="b8cfa127-0343-44c9-b270-63f7a0432dc1" name="Changes" comment="Klassen angelegt">
+      <change afterPath="$PROJECT_DIR$/src/Zeitstempel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/motorbike.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/truck.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KfZErfassung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KfZErfassung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Messung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Messung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ortsdaten.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ortsdaten.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +40,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\thomas.raeder.ID081935\IdeaProjects\Ortsdaten\src" />
       <recent name="D:\eclipse-workspace\Ortsdaten\src" />
     </key>
   </component>
@@ -61,6 +62,18 @@
       <option name="presentableId" value="Default" />
       <updated>1679163646841</updated>
     </task>
+    <task id="LOCAL-00001" summary="Klassen angelegt">
+      <created>1679165180038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679165180038</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Klassen angelegt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Klassen angelegt" />
   </component>
 </project>

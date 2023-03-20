@@ -4,6 +4,26 @@ public class Ortsdaten implements ComparableContent<Ortsdaten>{
     private int anzahlMessungen;
     private List<Messung> messungen;
 
+
+
+
+
+    public Ortsdaten(String ortsKuerzel) {
+        this.ortsKuerzel = ortsKuerzel;
+        messungen = new List<Messung>();
+        anzahlMessungen = 0;
+    }
+
+    public void erfasseMessung(Messung pMessung){
+        messungen.append(pMessung);
+        anzahlMessungen = anzahlMessungen + 1;
+    }
+
+    @Override
+    public String toString() {
+        return ortsKuerzel +  " (" + anzahlMessungen +")";
+    }
+
     public String getOrtsKuerzel() {
         return ortsKuerzel;
     }
@@ -12,15 +32,8 @@ public class Ortsdaten implements ComparableContent<Ortsdaten>{
         return anzahlMessungen;
     }
 
-
-
-    public Ortsdaten(String ortsKuerzel) {
-        this.ortsKuerzel = ortsKuerzel;
-    }
-
-    @Override
-    public String toString() {
-        return ortsKuerzel;
+    public List<Messung> getMessungen() {
+        return messungen;
     }
 
     @Override
