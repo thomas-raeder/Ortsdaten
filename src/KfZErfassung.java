@@ -42,6 +42,7 @@ public KfZErfassung() {
 }
 
     private void carButtonPressed(ActionEvent e) {
+<<<<<<< HEAD
         String ort = tfOrt.getText();
         if (!ort.equals("")){
             model.erfasseKfz(ort, 'P');
@@ -63,10 +64,22 @@ public KfZErfassung() {
             model.erfasseKfz(ort, 'M');
             new SuchBaumZeichner(800,600,model.getVerkehrszaehlung());
         }
+=======
+
+    }
+
+    private void truckButtonPressed(ActionEvent e) {
+    }
+
+    private void bikeButtonPressed(ActionEvent e) {
+>>>>>>> origin/master
     }
 
     public static void main(String[] args) {
         KfZErfassung program = new KfZErfassung();
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
     }
 }
